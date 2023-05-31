@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+   
+
+
+
+}
+
+
+
+#InfoPage{
+    background-image: url('Images/bcg-img.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 110vh;
+}
+
+
+
+
+
+#Sidebar {
+    background-color: #ff9d9d;
+    width: 100vw;
+    height: 20vh;
+}
+#Sidebar ul{
+    display: flex;
+}
+#Sidebar ul li{
+    background-color: #8ea7c5;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    margin: 25px 0px;
+    margin-left: 35px;
+    padding: 5px 20px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    list-style: none;
+
+}
+#Sidebar ul li a{
+    color: #274f38;
+
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+.BasicInfo{
+    background-color: rgb(255 209 248);
+    height: 20vh;
+    width: 60vw;
+
+    /* margin-top: 70px; */
+    margin-left: 7vw;
+    display: flex ;
+
+    position: relative;
+    top: 7px;
+
+
+    justify-content: center;
+    border-radius: 20px;
+
+
+
+}
+.BasicInfo h2{
+    margin-left: 20px;
+    font-family: 'Inconsolata', monospace;
+    
+    
+}
+
+.BasicInfo img{
+    border-radius: 60px;
+    width: 100px;
+    justify-self:right;
+}
+
+
+.Interests {
+    background-color: khaki;
+    height: 20vh;
+    width: 60vw;
+
+    margin-top: 60px;
+    position: relative;
+    top: 7px;
+    left: 30vw;
+    border-radius: 20px;
+
+}
+.Interests h3{
+    margin-left: 20px;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+
+
+.Skills{
+    background-color: #aac7d7;
+    height: 20vh;
+    width: 60vw;
+
+    margin-top: 60px;
+    position: relative;
+    top: 7px;
+    left: 14vw;
+    border-radius: 20px;
+
+    
+}
+.Skills h3{
+    margin-left: 20px;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+
+
+
+
+
+
+
+
