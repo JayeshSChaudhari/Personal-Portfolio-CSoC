@@ -116,11 +116,7 @@
     font-family: 'MuseoModerno', cursive;
 
 
-    animation-name: Welcome_Rotate;
-    animation-timing-function: ease-in;
-    animation-iteration-count: 2;
-    animation-duration: 2s;
-    animation-delay: 0.5s;
+    
 
 
 }
@@ -265,6 +261,16 @@
 /**/
 /*   ANIMATIONS CLASSES    */
 /**/
+
+
+.Title_Round{
+    animation-name: Welcome_Rotate;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 2;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
 
 
 .Tilt_Info {
